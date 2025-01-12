@@ -1,6 +1,6 @@
 const mongoose=require("mongoose");
 
-mongoose.connect("mongodb+srv://Sahil:Sahil%4044@cluster94.z8ihfav.mongodb.net/UserData");  //"UserData", it is the name of the DataBase where you will be storing your data.
+mongoose.connect("yourURL/UserData");  //"UserData", it is the name of the DataBase where you will be storing your data.
 
 const User=mongoose.model('Users',{name:String, email:String, password:String});    //"Users", here as you can see this is the collection Name (Table) name.
 
